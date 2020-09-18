@@ -32,6 +32,7 @@ public class ItemHandler
 
     public static void registerRecipes()
     {
+        /*
         GameRegistry.addShapedRecipe(new ResourceLocation(Reference.MOD_ID, "linker"),
                 new ResourceLocation(Reference.MOD_ID, "thuttech"), new ItemStack(ItemLinker.instance), "xyx", " x ",
                 "   ", 'x', Items.IRON_INGOT, 'y', Items.REDSTONE);
@@ -41,6 +42,7 @@ public class ItemHandler
         GameRegistry.addShapedRecipe(new ResourceLocation(Reference.MOD_ID, "controller"),
                 new ResourceLocation(Reference.MOD_ID, "thuttech"), new ItemStack(lift, 1, 1), "xyx", "yxy", "xyx", 'x',
                 Items.IRON_INGOT, 'y', Items.REDSTONE);
+        */
         GameRegistry.addShapelessRecipe(new ResourceLocation(Reference.MOD_ID, "book"),
                 new ResourceLocation(Reference.MOD_ID, "thuttech"), TechCore.getInfoBook(),
                 Ingredient.fromItem(ItemLinker.instance), Ingredient.fromItem(Items.BOOK));
